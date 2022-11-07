@@ -11,13 +11,20 @@ body {
   .container {
     text-align: center;
     padding: 20px;
-    height: 100vh;
+    display: block;
+  }
+
+  .onepunchman {
+    text-align: center;
+    padding: 20px;
+    height: 24vh;
   }
   
   .page-title {
     color: green;
     margin: 0 0 5px;
     height: 80vh;
+    display: inline;
   }
   
   .page-subtitle {
@@ -28,6 +35,7 @@ body {
   .page-info {
     color: red;
     text-align: center;
+    height: 100vh;
   }
   
   .page-logo {
